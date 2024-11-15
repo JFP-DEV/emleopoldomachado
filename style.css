@@ -1,0 +1,93 @@
+html{
+    font-size: 14px;
+    height: 100vh;
+    
+}
+
+body {
+    display: flex;
+    background-image: url(asset/fundo.jpg);
+    background-position: center, bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.main { 
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    max-width: 500px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.perfil {
+    width: 150px;
+    border-radius: 900px;
+    margin-top: 20px;
+    
+}
+
+.perfil:hover {
+    scale: 1.08;
+    transition-duration: .3s;
+    rotate: 45;
+}
+
+.btn-links {
+    padding: 10px;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    border-style: none;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    transition-duration: .3s;
+    background: none;
+    border-bottom: solid #fff;
+    border-right: solid #fff;
+    
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    background-color: blue;    
+}
+
+span {
+    font-size: 15px;
+}
+
+i {
+    font-size: 1.4em;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+}
