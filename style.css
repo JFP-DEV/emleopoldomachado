@@ -33,6 +33,8 @@ a {
     max-width: 500px;
     border-radius: 30px;
     position: absolute;
+    margin-right: 1%;
+    margin-left: -2px;
 }
 
 .perfil {
