@@ -118,3 +118,8 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+div.below {
+    position: sticky;
+    bottom: 0;
+}
